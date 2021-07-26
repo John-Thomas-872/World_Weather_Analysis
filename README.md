@@ -1,1 +1,4 @@
-# World_Weather_Analysis
+# World Weather Analysis
+
+## Overview
+The point of this challenge is learning how to retrieve data from different websites. Data is retrieved from openweather.com and from google.com using two different APIs. There are three different files that must be run in order since they each rely on data from the previous file. Weather_Database first, Vacation_Search second, and Vacation_Itenerary third. Weather_Database creates a list of 2000 random longitude and latitude points and then finds the weather from openweather.com for the nearest city to those points. The weather information is then organized into a dataframe and exported to a .csv file for the next file to sue. Vacation_Search takes in the previous .csv file and finds the closest hotel to the city using the nearby API search from Google. The hotel names are added to the dataframe and then exported to a new .csv. A map is then created to show all of the city points on a map. Vacation_Itenerary then takes in the newest .csv and creates a trip intenerary for the user. It selectes 4 cities from the list and creates a map with driving directions to each location. 
